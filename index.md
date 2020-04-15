@@ -327,12 +327,12 @@ We will use [Regular Expressions](https://en.wikipedia.org/wiki/Regular_expressi
 **Make a copy of your output; do the next step on the copy**. When regular expressions go wrong, it can be difficult to undo. Work on the copy. Open your copy of your output file in Sublime Text. First thing we'll do is remove any extraneous double or single quotes in the text:
 
 + find: `"`
-+ replace: `` 
++ replace:  
 
 That is, have the replace field empty.
 
 + find: `'`
-+ replace: ``
++ replace: 
 
 
 Now turn on the regular expression button in your 'find' bar, which looks like a `.*`.
@@ -367,8 +367,8 @@ This wraps your path inside quotation marks and puts `path :` in front of it.
 
 We're at the last step, where we find the image filename, and put it into `title: ""`. We know the filename ends with .jpg, and it starts after the `/`, but we're going to use groups so that we insert it back where we need it. The first group finds the quote at the end of the note and the new line, then the subsequent groups find all of the elements of the path. 
 
-find: `(" \n)(.+?)(.+/)(.+)(.jpg)`
-replace: `\1 title: "\3" \n \2\3\4\5`
++ find: `(" \n)(.+?)(.+/)(.+)(.jpg)`
++ replace: `\1 title: "\3" \n \2\3\4\5`
 
 The `.+?` means match as few characters as possible here between the first group and the second group. 
 
