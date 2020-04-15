@@ -459,6 +459,8 @@ At the command line,
 
 Drag and drop the `output.json` onto your Tropy project. There will be a slight pause, and then the appropriate text will appear in the notes pane for each note!
 
+This [ruby script is orginally by Sylvester Keil](https://gist.github.com/inukshuk/3340397a1789d5c44358daeae5f55d47), a developer at Tropy and whose help is gratefully acknowledged!
+
 ### Conclusion
 
 You now have a script for automatically extracting handwritten text from images. The quality of that text depends on the quality of the original images. The regex is not easy, but once you get the hang of it, very fast. The final script enables you to associate the transcribed text with the correct image in your image research management tool. 
