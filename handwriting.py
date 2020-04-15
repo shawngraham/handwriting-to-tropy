@@ -80,8 +80,8 @@ try:
     # you have to sign up for a free trial with azure, https://portal.azure.com
     # then make a resource under 'cognitive resources'
     # for computer vision to get the correct api, endpoint
-    os.environ['COMPUTER_VISION_SUBSCRIPTION_KEY']='2586ed9920f84529b671ce8bdaaa04ee'
-    os.environ['COMPUTER_VISION_ENDPOINT']='https://test-for-nature.cognitiveservices.azure.com/'
+    os.environ['COMPUTER_VISION_SUBSCRIPTION_KEY']='xxxxx
+    os.environ['COMPUTER_VISION_ENDPOINT']='yyyy'
 
     # Add your Computer Vision subscription key to your environment variables.
     if 'COMPUTER_VISION_SUBSCRIPTION_KEY' in os.environ:
