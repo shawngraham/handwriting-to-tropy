@@ -254,7 +254,7 @@ The point of this lesson is not to teach you how to iterate over a batch of file
                 continue
 ```
 
-You can use our file `handwriting.py` that will do this; right-click on the link and 'save as'.  
+You can use our file [`handwriting.py`](handwriting.py) that will do this; right-click on the link and 'save as'.  
 
 Have this file in a directory with the images you want to work on in a subfolder, arranged like so:
 
@@ -451,7 +451,7 @@ This final line writes all of the data according to the template, and writes it 
 puts JSON.pretty_generate({ '@graph' => items }, indent: '  ')
 ```
 
-Save this file as `convert.rb`
+Save this file as `convert.rb`. Our version is [here](convert.rb).
 
 At the command line, 
 
