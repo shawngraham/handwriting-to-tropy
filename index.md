@@ -158,6 +158,9 @@ if 'COMPUTER_VISION_ENDPOINT' in os.environ:
 else:
     print("\nSet the COMPUTER_VISION_ENDPOINT environment variable.\n**Restart your shell or IDE for changes to take effect.**")
     sys.exit()
+    
+computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
+
 ```
 
 Now the fun begins; we're going to point this script at a file I have online, a record card from the excavations of Fort Frontenac in Kingston Ontario by the Catarqui Archaeological Foundation, now held by the Museum of History in Gatineau (used with permission). You could use your own image; just uploaded it somewhere, right-click and 'copy image location' and then put between the quotations in the line below:
